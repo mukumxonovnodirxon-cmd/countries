@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #cad1cc;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 20px;
+}
+
+.menu input {
+    padding: 8px 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+}
+
+.menu input::placeholder {
+    color: white;
+}
+
+.menu button {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 8px 40px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu button:hover {
+    background-color: white;
+    color: black;
+}
+
+select {
+    padding: 8px;
+    width: 160px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+}
+
+select option {
+    color: black;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+
+.box img {
+    width: 100%;
+    height: 160px;
+}
+
+#sun,
+#moon {
+    font-size: 25px;
+}
+
+#sun {
+    display: none;
+}
+
+.dark {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
